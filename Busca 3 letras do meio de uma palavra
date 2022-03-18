@@ -1,0 +1,4 @@
+texto = input("Digite um texto: ")
+meio = len(texto)//2
+
+print(f"{texto[meio-1]}{texto[meio]}{texto[meio+1]}")
