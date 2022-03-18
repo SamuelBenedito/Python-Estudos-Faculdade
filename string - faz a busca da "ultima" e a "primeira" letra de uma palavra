@@ -1,0 +1,3 @@
+text = input("Digite uma palavra: ")
+tamanho = len(text)
+print (f"{text[tamanho -1]}{text[0]}")
